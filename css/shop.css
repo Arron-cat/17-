@@ -1,0 +1,148 @@
+       * {
+       	margin: 0;
+       	padding: 0;
+       }
+        body {
+            font-size: 14px;
+            font-family: "微软雅黑";
+          
+        }
+		
+       a {
+       	text-decoration: none;
+       }
+       
+       .shopcart {
+       	width: 120px;
+       	height: 40px;
+       	border: 1px solid #ccc;
+       	line-height: 40px;
+       	background: #f5f5f5 url(./images/car.png) no-repeat 10px center;
+       	padding-left: 50px;
+       	box-sizing: border-box;
+       	position: relative;
+       }
+       
+       .cartlist {
+       	display: none;
+       	width: 300px;
+       	border: 1px solid #ccc;
+       	position: absolute;
+       	right: -1px;
+       	top: 39px;
+       	border-top: 5px solid orangered;
+       	box-sizing: border-box;
+       }
+       
+       .cartdetail {
+       	padding: 0 10px;
+       }
+       
+       .cartdetail h3 {
+       	background-color: #f5f5f5;
+       	font-size: 14px;
+       	/* 弹性布局 */
+       	display: flex;
+       	/* 分布对齐 */
+       	justify-content: space-between;
+       	padding: 0 5px;
+       }
+       
+       .cartdetail h3 span {
+       	font-weight: normal;
+       	font-size: 12px;
+       	color: #999;
+       }
+       
+       .prodetail {
+       	position: relative;
+       	height: 100px;
+       	border-bottom: 1px solid #ccc;
+       }
+       
+       .prodetail:last-child {
+       	border: none;
+       }
+       
+       .prodetail img {
+       	float: left;
+       	margin-right: 10px;
+       }
+       
+       .prodetail div {
+       	float: left;
+       }
+       
+       .prodetail div h4,
+       .prodetail div p {
+       	font-size: 12px;
+       	line-height: 20px;
+       }
+       
+       .prodetail section button {
+       	width: 28px;
+       	height: 36px;
+       	background-color: #f5f5f5;
+       	border: 1px solid #ccc;
+       }
+       
+       .prodetail section input {
+       	width: 26px;
+       	height: 33px;
+       	line-height: 33px;
+       	border: 1px solid #ccc;
+       	padding-bottom: 1px;
+       	text-align: center;
+       }
+       
+       .prodetail .del {
+       	cursor: pointer;
+       	position: absolute;
+       	top: 5px;
+       	right: 5px;
+       	line-height: 20px;
+       	width: 20px;
+       	height: 20px;
+       	display: inline-block;
+       	background-color: #ccc;
+       	text-align: center;
+       	font-size: 16px;
+       	color: white;
+       	border-radius: 50%;
+       }
+       
+       .prodetail .del:hover {
+       	background-color: red;
+       }
+       
+       .prodetail strong {
+       	position: absolute;
+       	right: 5px;
+       	bottom: 15px;
+       	color: red;
+       }
+       
+       .heji {
+       	float: left;
+       	display: block;
+       	width: 149px;
+       	height: 50px;
+       	border: 1px solid #ccc;
+       	box-sizing: border-box;
+       	background-color: #f5f5f5;
+       	line-height: 50px;
+       	text-align: center;
+       }
+       
+       .jiesuan {
+       	float: left;
+       	display: block;
+       	width: 149px;
+       	height: 50px;
+       	border: 1px solid #ccc;
+       	box-sizing: border-box;
+       	background-color: red;
+       	line-height: 50px;
+       	text-align: center;
+       	color: white;
+       }
